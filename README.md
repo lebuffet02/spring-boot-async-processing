@@ -28,7 +28,7 @@ Executes tasks one after another.
 * Each task takes ~3 seconds
 * Total execution time ≈ **9 seconds**
 
-![img_1.png](src/main/resources/images/img_1.png)
+![img_1.png](async/src/main/resources/images/img_1.png)
 ---
 
 ## 🟢 Endpoint: Parallel Execution
@@ -41,7 +41,7 @@ Executes tasks concurrently using `CompletableFuture`.
 * Tasks run in parallel
 * Total execution time ≈ **3 seconds**
 
-![img_2.png](src/main/resources/images/img_2.png)
+![img_2.png](async/src/main/resources/images/img_2.png)
 ---
 
 ### 1. Custom Thread Pool
